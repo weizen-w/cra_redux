@@ -1,6 +1,7 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { RootState } from '../../store';
+import styles from './Counter.module.css';
 
 export default function Counter(): JSX.Element {
   const dispatch = useDispatch();
@@ -18,12 +19,13 @@ export default function Counter(): JSX.Element {
   }
   const counter = useSelector((state: RootState) => state.counter.value);
   return (
-    <div>
-      <button type="button" onClick={handleMinusTen}>-10</button>
-      <button type="button" onClick={handleMinus}>-</button>
-      {counter}
-      <button type="button" onClick={handlePlus}>+</button>
-      <button type="button" onClick={handlePlusTen}>+10</button>
+    <div className={styles.boxStyle}>
+      <h3>Enter quantity</h3>
+      <button className={styles.btnStyle} type="button" onClick={handleMinusTen}>-10</button>
+      <button className={styles.btnStyle} type="button" onClick={handleMinus}>-</button>
+      <span className={styles.numberStyle}>{counter}</span>
+      <button className={styles.btnStyle} type="button" onClick={handlePlus}>+</button>
+      <button className={styles.btnStyle} type="button" onClick={handlePlusTen}>+10</button>
     </div>
   );
 }

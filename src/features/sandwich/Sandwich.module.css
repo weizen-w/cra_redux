@@ -1,0 +1,25 @@
+.boxStyle {
+  width: 400px;
+  margin: 20px;
+}
+
+.btnStyle {
+  padding: 5px;
+  margin: 5px;
+  background-color: antiquewhite;
+  border-radius: 20px;
+}
+
+.btnDeletStyle {
+  padding: 5px;
+  margin: 5px;
+  background-color: rgb(251, 131, 131);
+  border-radius: 20px;
+}
+
+.textStyle {
+  padding: 10px;
+  width: max-content;
+  border: 2px solid rgb(178, 178, 178);
+  font-weight: bold;
+}

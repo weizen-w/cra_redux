@@ -1,0 +1,20 @@
+.boxStyle {
+  width: 400px;
+  margin: 20px;
+}
+
+.btnStyle {
+  margin: 5px;
+  background-color: rgb(195, 234, 236);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px;
+}
+
+.numberStyle {
+  margin: 5px;
+  padding: 2px;
+  border: 1px dotted;
+  font-size: 16px;
+  font-weight: bold;
+}
