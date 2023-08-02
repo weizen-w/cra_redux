@@ -11,7 +11,7 @@ export default function sandwichReducer(
 ): SandwichState {
   switch (action.type) {
     case 'sandwich/add':
-      return { ...state, value: `${state.value} ${action.payload}-${action.value}` };
+      return { ...state, value: `${state.value} ${action.quantity}-${action.payload}` };
     case 'sandwich/delete':
       return { ...state, value: initialState.value };
     default:
