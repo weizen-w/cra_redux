@@ -1,5 +1,5 @@
 .container {
-  background-color: #3de089;
+  background-color: #f9c178;
   height: 100px;
   position: sticky;
   top: 5px;
@@ -11,16 +11,16 @@
 }
 
 .link {
-  color: #5f7ddf;
+  color: #000000;
   font-size: 25px;
   text-decoration: none;
-  border: 1px solid rgb(180, 180, 180);
+  border: 1px solid rgb(0, 117, 49);
   border-radius: 30px;
   padding: 20px;
 }
 
 .link:global.active {
-  color: #000000;
+  color: #0d00fd;
   text-decoration: underline;
-  background-color: #00ce60;
+  background-color: #25ea81;
 }
