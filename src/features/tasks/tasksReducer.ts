@@ -11,7 +11,7 @@ const initialState: TasksState = [
   },
 ];
 
-export default function sandwichReducer(
+export default function tasksReducer(
   state: TasksState = initialState,
   action: Action
 ): TasksState {
