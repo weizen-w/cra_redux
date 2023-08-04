@@ -4,6 +4,7 @@ import sandwichReducer from './features/sandwich/sandwichReducer';
 import tasksReducer from './features/tasks/tasksReducer';
 import booksReducer from './features/books/booksReducer';
 import moviesReducer from './features/movies/moviesReducer';
+import studentsReducer from './features/students/studentsReducer';
 
 const store = createStore(
   combineReducers({
@@ -12,6 +13,7 @@ const store = createStore(
     tasks: tasksReducer,
     books: booksReducer,
     movies: moviesReducer,
+    students: studentsReducer,
   })
 );
 

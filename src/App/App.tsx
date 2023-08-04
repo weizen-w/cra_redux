@@ -12,6 +12,8 @@ import BookCreation from '../features/books/BookCreation';
 import Books from '../features/books/Books';
 import Movies from '../features/movies/Movies';
 import MovieCreation from '../features/movies/MovieCreation';
+import StudentCreation from '../features/students/StudentCreation';
+import Students from '../features/students/Students';
 
 function App(): JSX.Element {
   return (
@@ -23,6 +25,7 @@ function App(): JSX.Element {
         <Route path="tasks" element={<><Tasks /><TaskCreation /></>} />
         <Route path="books" element={<><Books /><BookCreation /></>} />
         <Route path="movies" element={<><MovieCreation /><Movies /></>} />
+        <Route path="students" element={<><StudentCreation /><Students /></>} />
       </Route>
     </Routes>
   );
