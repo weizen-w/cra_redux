@@ -10,6 +10,8 @@ import Tasks from '../features/tasks/Tasks';
 import TaskCreation from '../features/tasks/TaskCreation';
 import BookCreation from '../features/books/BookCreation';
 import Books from '../features/books/Books';
+import Movies from '../features/movies/Movies';
+import MovieCreation from '../features/movies/MovieCreation';
 
 function App(): JSX.Element {
   return (
@@ -20,6 +22,7 @@ function App(): JSX.Element {
         <Route path="sandwich" element={<><Counter /><Sandwich /></>} />
         <Route path="tasks" element={<><Tasks /><TaskCreation /></>} />
         <Route path="books" element={<><Books /><BookCreation /></>} />
+        <Route path="movies" element={<><MovieCreation /><Movies /></>} />
       </Route>
     </Routes>
   );

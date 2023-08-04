@@ -1,0 +1,17 @@
+.boxStyle {
+  border: 2px solid black;
+  width: 300px;
+  height: 400px;
+}
+
+.imgStyle {
+  height: 200px;
+}
+
+.title {
+  
+}
+
+.infoStyle {
+  background-color: aliceblue;
+}

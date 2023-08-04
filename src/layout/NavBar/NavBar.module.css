@@ -1,8 +1,6 @@
 .container {
   background-color: #f9c178;
   height: 100px;
-  position: sticky;
-  top: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
