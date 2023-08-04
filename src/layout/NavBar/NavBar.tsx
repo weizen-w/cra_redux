@@ -12,6 +12,7 @@ export default function NavBar(): JSX.Element {
       <NavLink className={styles.link} to="books">Books</NavLink>
       <NavLink className={styles.link} to="movies">Movies</NavLink>
       <NavLink className={styles.link} to="students">Students</NavLink>
+      <NavLink className={styles.link} to="dishes">Dishes</NavLink>
     </nav>
   );
 }
