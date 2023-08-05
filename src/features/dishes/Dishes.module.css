@@ -8,7 +8,7 @@
   padding: 50px;
   box-shadow: 0 0 10px;
   font-size: 60px;
-  background-color: chocolate;
+  background-color: #64C4AF;
 }
 
 .pageBoxStyle {
@@ -24,35 +24,50 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 2px solid;
+  border: 5px outset #D9F5BE;
   width: 400px;
-  height: 500px;
-  padding: 10px;
-  padding-bottom: 30px;
-  box-shadow: 0 0 10px;
-  background: linear-gradient(198deg, rgba(0,255,218,1) 0%, rgba(252,255,114,1) 51%, rgba(21,219,251,1) 100%);
+  height: 600px;
+  padding-bottom: 10px;
+  box-shadow: 5px 5px 15px;
+  background: linear-gradient(145deg, rgba(145,206,215,1) 0%, rgba(204,235,192,1) 50%, rgba(89,174,127,1) 100%);
 }
 
 .titleStyle {
+  display: flex;
   width: 100%;
-  font-size: 40px;
+  height: 150px;
+  font-size: 20px;
   text-align: center;
+  justify-content: center;
+  align-items: center;
   text-transform: uppercase;
-  background-color: rgba(0, 238, 255, 0.537);
+  word-wrap: break-word;
+  background-color: rgba(255, 255, 255, 0.464);
 }
 
 .imgStyle {
+  border: 10px inset #D9F5BE;
   margin: 5px;
-  margin-bottom: 30px;
-  width: 300px;
-  box-shadow: 0 0 20px;
+  margin-bottom: 10px;
+  max-height: 200px;
+  max-width: 200px;
+}
+
+.discriptionStyle {
+  padding: 10px;
+  text-align: center;
+  height: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .infoStyle {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
   margin: 10px;
-  font-size: 20px;
-  text-align: center;
-  width: 100%;
+  font-size: 15px;
+  width: 80%;
   background-color: rgba(255, 255, 255, 0.464);
 }
 
@@ -61,8 +76,8 @@
   display: flex;
   flex-direction: column;
   border: 2px solid;
-  width: 400px;
-  height: 500px;
+  min-width: 385px;
+  min-height: 590px;
   gap: 10px;
 }
 
@@ -76,8 +91,11 @@
 .formAddStyle {
   display: flex;
   flex-direction: column;
-
   width: 800px;
   gap: 10px;
 
+}
+
+.btnStyle {
+  color: #2e6145;
 }

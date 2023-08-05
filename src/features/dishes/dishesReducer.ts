@@ -5,11 +5,11 @@ import Action from './types/Action';
 const initialState: Dish[] = [
   {
     id: uid(),
-    title: 'salad',
-    category: 'snacks',
-    price: 9,
-    image:
-      'https://c.pxhere.com/photos/25/95/salad_food_dish_plate_meal_healthy_cuisine_fresh-1289471.jpg!s2',
+    title: '"Red fruits from the garden"',
+    category: 'dessert',
+    price: 40,
+    image: 'https://avatars.dzeninfra.ru/get-zen_doc/3965361/pub_60a60e8eddb76a1023ad4777_60a60ebd2b5fbd2cdfa0de0a/scale_1200',
+    description: '',
   },
 ];
 

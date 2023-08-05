@@ -17,6 +17,7 @@ export default function Dishes(): JSX.Element {
             category={dish.category}
             price={dish.price}
             image={dish.image}
+            description={dish.description}
           />
         ))}
       </div>
