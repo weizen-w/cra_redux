@@ -9,7 +9,7 @@ const initialState: Dish[] = [
     category: 'dessert',
     price: 40,
     image: 'https://avatars.dzeninfra.ru/get-zen_doc/3965361/pub_60a60e8eddb76a1023ad4777_60a60ebd2b5fbd2cdfa0de0a/scale_1200',
-    description: '',
+    description: '"Restaurant Mugaritz (Renteria, Spain)" The restaurant´s chef (Andoni Luis Aduriz) spent several years learning how to create a stable foam from beetroot and berry juice. Dessert will delight you with delicious taste.',
   },
 ];
 
